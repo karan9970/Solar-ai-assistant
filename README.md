@@ -18,4 +18,7 @@ It provides insights on **solar panels, installation, maintenance, ROI, and indu
 ### 1️⃣ **Clone the Repository**
 ```sh
 git clone https://github.com/your-username/solar-ai-assistant.git
+
 cd solar-ai-assistant
+
+streamlit run app.py
