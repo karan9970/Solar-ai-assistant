@@ -21,6 +21,7 @@ def get_gemini_response(question):
         return response.text
     except Exception as e:
         return f"❌ Error: {str(e)}"
+    
 
 # ✅ Streamlit UI
 st.set_page_config(page_title="🌞 Solar Industry AI Assistant", layout="wide")
